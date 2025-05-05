@@ -17,7 +17,3 @@
 
 
 
-
-
-Dữ liệu có thể tải tại: [Google Drive Link] (https://drive.google.com/drive/folders/1FrZ-e6FNorGNFFEiIqClw7aBTsof8Dzv?usp=drive_link)
-
