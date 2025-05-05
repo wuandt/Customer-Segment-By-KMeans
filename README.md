@@ -15,5 +15,16 @@
    | Services     | Dịch vụ bổ sung mà khách sạn cung cấp |
    | Service_Usage | Dữ liệu khách đã sử dụng dịch vụ nào |
 
+**Bảng Customers**
+- Chứa thông tin về khách hàng đã từng đặt phòng trong khách sạn.
+- Khóa chính: 'customer_id`.
+- Mối quan hệ: Liên kết với `Bookings` (Mỗi khách hàng có thể có nhiều đặt phòng).
+| Tên Cột          | Kiểu Dữ Liệu          | Mô Tả                                |
+|------------------|----------------------|--------------------------------------|
+| `customer_id`    | `INTEGER (PK)`       | ID khách hàng (Primary Key)          |
+| `full_name`      | `VARCHAR(255)`       | Họ và tên khách hàng                 |
+| `email`          | `VARCHAR(255)`       | Email khách hàng (duy nhất)         |
+| `phone`          | `VARCHAR(20)`        | Số điện thoại                        |
+| `created_at`     | `TIMESTAMP`          | Ngày khách hàng đăng ký             |
 
 
